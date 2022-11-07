@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "typeRoots": ["types", "node_modules/@types"],
+    "strict": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "Node",
+    "lib": ["ES2020"],
+    "module": "commonjs",
+    "target": "ES2020"
+  }
+}
