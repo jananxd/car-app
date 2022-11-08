@@ -4,7 +4,7 @@ class Mongo {
     private mongoClient: MongoClient
 
     constructor() {
-        const uri = "mongodb://localhost:27017";
+        const uri = `mongodb://${process.env.MONGO_HOST}:27017`;
         this.mongoClient = new MongoClient(uri);
     }
 
